@@ -153,3 +153,41 @@ button{
 width:90%;
 }
 }
+.gift{
+font-size:90px;
+animation:bounceGift 2s infinite;
+margin-bottom:20px;
+}
+
+@keyframes bounceGift{
+0%,100%{
+transform:translateY(0);
+}
+50%{
+transform:translateY(-20px);
+}
+}
+
+.debu{
+font-size:70px;
+color:#ff4f93;
+text-shadow:0 0 20px white;
+}
+
+.subtitle{
+font-size:22px;
+color:#ff7db6;
+margin-top:10px;
+}
+
+body::before{
+content:"🌸 🌸 💖 🎈 🌸 🎀 💖 🌷";
+position:fixed;
+top:-50px;
+left:0;
+width:100%;
+font-size:35px;
+animation:fall 15s linear infinite;
+pointer-events:none;
+opacity:.7;
+}
