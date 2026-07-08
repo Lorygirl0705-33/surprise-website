@@ -274,3 +274,18 @@ animation:cakeJump 1.5s infinite;
 transform:translateY(-12px);
 }
 }
+.envelope{
+font-size:90px;
+margin:20px auto;
+animation:envelopeBounce 2s infinite;
+cursor:pointer;
+}
+
+@keyframes envelopeBounce{
+0%,100%{
+transform:translateY(0);
+}
+50%{
+transform:translateY(-12px) rotate(-5deg);
+}
+}
