@@ -263,3 +263,14 @@ transform:rotate(5deg);
 }
 }
 }
+.cake{
+font-size:90px;
+margin:20px;
+animation:cakeJump 1.5s infinite;
+}
+
+@keyframes cakeJump{
+50%{
+transform:translateY(-12px);
+}
+}
