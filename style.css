@@ -232,3 +232,10 @@ transform:translateY(-120vh) rotate(360deg);
 opacity:0;
 }
 }
+footer{
+padding:20px;
+background:#ffc7df;
+color:white;
+font-weight:bold;
+font-size:18px;
+}
