@@ -1,4 +1,4 @@
-*{
+9*{
 margin:0;
 padding:0;
 box-sizing:border-box;
@@ -238,4 +238,28 @@ background:#ffc7df;
 color:white;
 font-weight:bold;
 font-size:18px;
+  .teddy{
+position:fixed;
+bottom:20px;
+font-size:70px;
+z-index:999;
+animation:teddyDance 2s infinite ease-in-out;
+}
+
+.left{
+left:15px;
+}
+
+.right{
+right:15px;
+}
+
+@keyframes teddyDance{
+0%,100%{
+transform:rotate(-5deg);
+}
+50%{
+transform:rotate(5deg);
+}
+}
 }
